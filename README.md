@@ -9,9 +9,9 @@ follow these to startup:
 
 To run this project:
 
-`npm run dev` to run locally
-`npm run start:test` to run in TEST environment
-`npm run start:prod` to run in PRODUCTION environment
+`npm run dev` to run locally <br/>
+`npm run start:test` to run in TEST environment <br/>
+`npm run start:prod` to run in PRODUCTION environment <br/>
 
 consider checking the .env files for more information.
 
