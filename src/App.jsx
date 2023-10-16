@@ -5,6 +5,9 @@ import './App.css'
 import Greet from './components/main_page'
 import NavBar from './components/nav_bar'
 import HeroSection from './components/Hero_container'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+
 
 
 function App() {
@@ -12,31 +15,19 @@ function App() {
   console.log(JSON.stringify(import.meta.env.VITE_REACT_APP_ENV), "dskjdksjdkskjdsk");
 
   return (
-    <div className='container'>
+    <>
     <NavBar/>
-    <HeroSection/>
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
+    <div className='container'>
       
-      
-      {/* <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+{/*      
+      <Routes>
+
+        <Route path='/' element={<Home/>} />
+
+      </Routes> */}
+    
     </div>
+    </>
   )
 }
 
