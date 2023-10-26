@@ -1,0 +1,35 @@
+
+.vision-section {
+    background-color: rgb(198, 255, 236);
+    color: darkblue;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    object-fit: contain;
+  }
+  
+  .vision-title {
+
+    font-size: 2rem;
+    text-align: center;
+
+    
+  }
+  
+  .vision-subtitle {
+    font-size: 1.5rem;
+    text-align: center;
+
+  }
+  
+  .vision-content {
+    
+    text-align: center;
+    
+  }
+  .vision-header {
+    text-align: center;
+  }
