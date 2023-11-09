@@ -9,6 +9,8 @@
   
 
   box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -53,19 +55,30 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start; /* This will align the navigation bar to the top of the container */
-  background-color: rgb(249, 249, 249);
-  padding: 10px 20px;
+  /* background-color: rgb(249, 249, 249); */
+  padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;
+  max-height: 40px;
+  height: 100%;
+  
 }
 
 
 .navbar-logo img {
-  width: 200px; /* Adjust the width as needed */
-  
+  /* width: 200px; Adjust the width as needed */
+  width: 100%; /* Logo takes 100% of its parent's width */
+  max-width: 200px;
+  height: auto;
+  @media (max-width: 768px) {
+    max-width: 150px; /* Adjust maximum width for screens up to 768px wide */
+  }
+
+  @media (max-width: 480px) {
+    max-width: 100px; /* Further adjust for screens up to 480px wide */
+  }
   
 }
 
@@ -82,4 +95,10 @@
 .navbar-link a {
   text-decoration: none;
   color: #968b8b;
+}
+
+.home-main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

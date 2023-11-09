@@ -10,9 +10,9 @@ const NavBar = () => {
         <img src= {cara_logo} alt= 'cara_logo'/>
       </div>
       <ul className="navbar-links">
-        {/* <li className="navbar-link" on><a href="/solutions">Solutions</a></li> */}
-        <li className="navbar-link"><a href="/about">About</a></li>
-        <li className="navbar-link"><a href="/contactus">Contact Us</a></li>
+        {/* <li className="navbar-link"><a href="#">Solutions</a></li> */}
+        {/* <li className="navbar-link"><a href="#">About</a></li> */}
+        {/* <li className="navbar-link"><a href="#">Contact Us</a></li> */}
       </ul>
     </nav>
   );
