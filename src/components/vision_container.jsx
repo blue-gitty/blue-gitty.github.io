@@ -8,16 +8,15 @@ import Vcard from "./cards_vision";
 const VisionSection = () => {
   return (
     <Grid container className="vision-section">
-      <Grid item xs={12}>
-        <Typography variant="h2" className="vision-title">
+      <div classname= "vision-head-block">
+        <h1 className="vision-title">
           Vision
-        </Typography>
-      </Grid>
-      <Grid item xs={12} sm={12} className="vision-header">
-        <Typography variant="h4">
+        </h1>
+
+        <p className="vision-subhead">
           We provide efficient solutions for diagnostic procedures through Non-Invasive methods.
-        </Typography>
-      </Grid>
+        </p>
+        </div>
       <Box p={8}>
 
           <Grid container spacing={6}>

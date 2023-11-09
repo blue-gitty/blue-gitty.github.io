@@ -18,15 +18,36 @@
     }
     .para-message{
         
-        color: #000000;
-        margin: 0 0 20px 20px;
+        color: white;
+        margin: 0 40px 20px 40px;
+        font-size: 30px; 
+        text-align: justify;
         
     }
     .h1-message{
-        color: #000000;
-        margin: 0 0 40px 20px;
+        color: white;
+        margin: 0 0 40px 40px;
+        font-size: 80px;
         
     }
-    .waiter{
-        color: rgb(72, 51, 110);
+    @media only screen and (max-width: 600px) {
+        /* Adjust font sizes for mobile view */
+        .h1-message {
+            font-size: 50px; /* Adjust the font size for mobile */
+            margin: 0 0 20px 10px; /* Adjust margin as needed */
+        }
+    
+        .para-message {
+            font-size: 16px; /* Adjust the font size for mobile */
+            margin: 0 10px 10px 10px; /* Adjust margin as needed */
+        }
+
+        .hero-container{
+            height: 80vh;
+        }
+        
+    }
+
+    .intro-button{
+        font-size: 20px;
     }

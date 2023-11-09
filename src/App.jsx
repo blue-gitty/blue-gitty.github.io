@@ -4,6 +4,7 @@ import './App.css'
 // import Greet from './components/main_page'
 import NavBar from './components/nav_bar'
 import HomePage from './templates/home'
+import ContactUs from './components/contactus'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
     <>
     <NavBar/>
     <HomePage/>
+    <ContactUs/>
     
     </>
   )

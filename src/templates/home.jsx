@@ -8,7 +8,7 @@ const HomePage = () => {
     <div className='home-main'>
     <HeroSection/>
     <VisionSection/>
-    <Partners/>
+    {/* <Partners/> */}
     </div>
 
 
