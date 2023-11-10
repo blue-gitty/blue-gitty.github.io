@@ -1,42 +1,75 @@
+/* Your existing styles... */
 
 .vision-section {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    object-fit: contain;
-  }
-  
-  .vision-head-block{
-    margin-left: 20px;
-  }
-  .vision-subhead {
-    font-size: 30px;
-  }
+  background-color: rgb(174, 174, 178);
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  object-fit: contain;
+  padding: 20px; /* Add padding to the container for mobile */
+}
 
+.vision-head-block {
+  /* margin-left: 20px;s */
+  text-align: center; /* Adjust alignment for mobile */
+}
+
+.vision-subhead {
+  color: rgb(0, 0, 0);
+  margin: 0 40px 20px 40px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+.vision-title {
+  margin: 30px 0 40px 40px;
+  font-size: 80px;
+}
+
+.vision-subtitle {
+  font-size: 30px;
+  text-align: justify;
+  color: black;
+}
+
+.vision-content {
+  text-align: center;
+}
+
+.vision-header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
   .vision-title {
-
-    font-size: 80px;
-    text-align: left;
-
-    
+    font-size: 50px;
+    margin: 10vh 0 20px 10px;
   }
-  
-  .vision-subtitle {
-    font-size: 1.5rem;
+
+  .vision-subhead {
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+  }
+
+  .vision-head-block {
+    margin-left: 0;
     text-align: center;
-
   }
   
+  .vision-section {
+    padding: 20px;
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+  }
+
   .vision-content {
-    
-    text-align: center;
-    
+    flex: 0 0 auto;
+    width: 80vw;
+    max-width: 300px;
   }
-  .vision-header {
-    text-align: center;
-  }
+}

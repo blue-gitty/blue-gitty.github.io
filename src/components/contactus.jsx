@@ -10,9 +10,9 @@ const ContactUs = () => {
   return (
 
     <div className="contactus-container">
-        <Typography variant="h4" className="header">
+        <h1 className="header">
           Contact Us
-        </Typography>
+        </h1>
     </div>
 
   );

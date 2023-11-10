@@ -1,5 +1,6 @@
 import React from "react";
 import "./component_css/Hero_container.css"
+import Typewriter from 'typewriter-effect'
 import backwoods from "../assets/backwoods.jpg"
 function HeroSection() {
 
@@ -13,7 +14,9 @@ function HeroSection() {
     return(
             <div className="hero-container">
                 
-               <h1 className="h1-message">Empowering Health through Innovation</h1>
+               <h1 className="h1-message">
+               Empowering Health through Innovation
+                </h1>
                <p className="para-message">
                CARA Systems is dedicated to pioneering a transformative innovation in 
                the field of medical science and engineering. Our dynamic risk assessment tool for 

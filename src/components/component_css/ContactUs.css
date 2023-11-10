@@ -11,29 +11,13 @@
     padding-left: 30px;
     padding-top: 30px;
   }
-/*   
-  .form {
-    width: 40%;
-  }
+  @media screen and (max-width: 600px) {
+    .contactus-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      height: auto; /* Adjust height to content */
+    }
   
-  .input-fields {
-    display: flex;
-    flex-direction: column;
+    .header {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
   }
-  
-  .input-label {
-    color: black;
-  }
-  
-  .input-field {
-    background-color: black;
-    color: white;
-    margin-bottom: 15px;
-  }
-  
-  .submit-button {
-    margin-top: 20px;
-    background-color: black;
-    color: white;
-  }
-   */

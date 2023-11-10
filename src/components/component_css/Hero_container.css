@@ -20,11 +20,12 @@
         
         color: white;
         margin: 0 40px 20px 40px;
-        font-size: 30px; 
+        font-size: 25px; 
         text-align: justify;
         
     }
     .h1-message{
+        
         color: white;
         margin: 0 0 40px 40px;
         font-size: 80px;
@@ -50,4 +51,6 @@
 
     .intro-button{
         font-size: 20px;
+        background-color: rgb(124,124,128);
+        color: black;
     }
