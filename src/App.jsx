@@ -14,7 +14,7 @@ function App() {
     <>
     <NavBar/>
     <HomePage/>
-    <ContactUs/>
+    {/* <ContactUs/> */}
     
     </>
   )

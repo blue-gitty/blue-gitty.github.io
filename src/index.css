@@ -14,6 +14,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
+@font-face {
+  font-family: "Tokyo-Outline";
+  src: local("Tokyo-Outline"),
+   url("../../fonts/Tokyo/Tokyo-Outline/Tokyo-Outline.woff") format("woff");
+  font-weight: bold;
+ }
+ 
+
 a {
   font-weight: 500;
   color: #646cff;
