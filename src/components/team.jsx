@@ -7,7 +7,7 @@ import pgpic from '../assets/profilepics/Prithvi_picture_CARA.jpeg';
 import kbpic from '../assets/profilepics/Kurt_pic.png'
 import iskpic from '../assets/profilepics/Iskender_pic.png';
 import albertpic from '../assets/profilepics/Albert_pic.png';
-
+import srkpic from '../assets/profilepics/srkpic.jpg'
 const TeamPage = () => {
     return (
       <div className="team-container">
@@ -35,7 +35,7 @@ const TeamPage = () => {
           </div>
         </div>
         <div className="team-member">
-          <img src="https://via.placeholder.com/150" alt="Team Member 3" />
+          <img src={srkpic} alt="Team Member 3" />
           <div className="member-details">
             <p className='name'>Srushti Katore</p>
             <p className='role'>Co-Founder</p>
