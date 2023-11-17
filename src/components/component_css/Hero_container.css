@@ -7,6 +7,10 @@
     }
     
     .hero-container{
+        background-image: url('../../assets/hero-background2.jpg');
+        background-size: 'cover';
+        background-repeat: 'no-repeat';
+        background-position: 'center';
         justify-content: center;
         height: 100vh;
         width: 100%;
@@ -26,11 +30,37 @@
     }
     .h1-message{
         
-        color: white;
+        /* color: white; */
         margin: 0 0 40px 40px;
         font-size: 80px;
+        color: hsl(0, 0%, 86%);
+        /* font-size: 50px!important; */
+        /* font-weight: bold!important; */
+        /* font-family: monospace; */
+        /* letter-spacing: 4px!important; */
+        cursor: pointer;
+        text-transform: uppercase;
+
+        /* padding: 64px; */
+        background: linear-gradient(to right, rgb(174, 174, 177) 4%, hsl(0, 0%, 96%) 30%, rgb(178, 178, 185) 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine  5s infinite linear alternate;
+        
         
     }
+
+    @keyframes shine {
+        0% {
+          background-position: 0;
+        }
+        60% {
+          background-position: 600px;
+        }
+        100% {
+          background-position: 600px;
+        }
+      }
     @media only screen and (max-width: 600px) {
         /* Adjust font sizes for mobile view */
         .h1-message {
@@ -51,6 +81,7 @@
 
     .intro-button{
         font-size: 20px;
-        background-color: rgb(124,124,128);
-        color: black;
+        background-color: rgb(105,105,110);
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
     }

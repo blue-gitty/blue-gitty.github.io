@@ -6,7 +6,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: rgb(36, 36, 38);
-  /* background-image: url('./assets/backwoods.jpg'); */
+  /* background-image: url('./assets/hero-background2.jpg'); */
+  background-size: 'contain';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

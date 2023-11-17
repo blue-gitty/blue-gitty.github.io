@@ -3,11 +3,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/system';
+import './component_css/vision_container.css'
 
 const StyledCard = styled(Card)(({ theme }) => ({
-  boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+  boxShadow: '0 0 10px rgba(199, 199, 204, 0.5)',
   borderRadius: '10px',
-  height: '300px', // Set height to 100% to adjust for the content
+  // height: '35vh', // Set height to 100% to adjust for the content
   backgroundColor: 'grey',
   color: 'white',
 }));
@@ -22,7 +23,7 @@ const VisionContent = styled(Typography)(({ theme }) => ({
 }));
 
 const ContentWrapper = styled(CardContent)({
-  height: '100%', // Set the height of the content area
+  // Set the height of the content area
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'space-between', // Adjust the content alignment
@@ -31,7 +32,7 @@ const ContentWrapper = styled(CardContent)({
 export default function Vcard({ note, note_description, height_custom }) {
   return (
     <div>
-      <StyledCard style={{ height: height_custom }}>
+      <StyledCard className='vcard-contianer-styledcard' >
         <ContentWrapper>
           <VisionSubtitle variant="h1" component="div">
             {note}

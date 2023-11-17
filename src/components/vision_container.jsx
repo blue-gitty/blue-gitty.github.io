@@ -37,14 +37,14 @@ what's possible in health and engineering."
                 note={'Innovation'}
                 note_description={'Unlocking the potential of dynamic 3-D reconstructions and simulations, our AI/ML-enhanced algorithms, accessible through a cloud-based software in a desktop setting, redefine efficiency and enhance diagnostic capabilities, epitomizing cutting-edge innovation in healthcare technology.'
                 }
-                height_custom={'100%'}
+                // height_custom={'100%'}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
               <Vcard
                 note={'Impact'}
-                note_description={'Empower physicians with data-driven analytics, enhancing their decision-making, saving time and resources, and ultimately elevating patient outcomes while reducing costs.' }
-                height_custom={'100%'}
+                note_description={'Empower physicians with data-driven analytics, enhancing their decision-making, saving time and resources, and ultimately elevating patient outcomes while reducing costs. ' }
+                // height_custom={'100%'}
               />
             </Grid>
             <Grid item xs={12} sm={4}>
@@ -54,7 +54,7 @@ what's possible in health and engineering."
                 note_description={
                   'The future of this technology promises to continue transforming healthcare, with the ultimate goal of revolutionizing pre-surgical planning and post-treatment monitoring. This innovation will not only push the boundaries of efficiency and diagnostic precision but also open new horizons for patient care.'
                   }
-                height_custom={'100%'}
+                // height_custom={'100%'}
               />
             </Grid>
           </Grid>
