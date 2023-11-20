@@ -1,6 +1,6 @@
 import React from 'react';
 import './component_css/TeamPage.css';
-import {BsLinkedin} from 'react-icons/Bs';
+import {BsLinkedin} from 'react-icons/bs';
 import {HiMiniHome} from 'react-icons/hi2';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
 import pgpic from '../assets/profilepics/Prithvi_picture_CARA.jpeg';
