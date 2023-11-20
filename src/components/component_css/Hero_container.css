@@ -1,31 +1,87 @@
 .img {
-object-fit: cover;
-width: 100%;
-height: 100%;
-position: fixed;
-z-index: -1;
-}
-
-.hero-container{
-    margin-top: 20px;
-    justify-content: center;
-    height: 100vh;
+    object-fit: cover;
     width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    object-fit: contain;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    }
     
-}
-.h1-message, .para-message{
-    align-self: center;
-    color: #000000;
-    align-items: center;
+    .hero-container{
+        background-image: url('../../assets/hero-background2.jpg');
+        background-size: 'cover';
+        background-repeat: 'no-repeat';
+        background-position: 'center';
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        object-fit: contain;
+        
+    }
+    .para-message{
+        
+        color: white;
+        margin: 0 40px 20px 40px;
+        font-size: 25px; 
+        text-align: justify;
+        
+    }
+    .h1-message{
+        
+        /* color: white; */
+        margin: 0 0 40px 40px;
+        font-size: 80px;
+        color: hsl(0, 0%, 86%);
+        /* font-size: 50px!important; */
+        /* font-weight: bold!important; */
+        /* font-family: monospace; */
+        /* letter-spacing: 4px!important; */
+        cursor: pointer;
+        text-transform: uppercase;
+
+        /* padding: 64px; */
+        background: linear-gradient(to right, rgb(174, 174, 177) 4%, hsl(0, 0%, 96%) 30%, rgb(178, 178, 185) 60%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine  5s infinite linear alternate;
+        
+        
+    }
+
+    @keyframes shine {
+        0% {
+          background-position: 0;
+        }
+        60% {
+          background-position: 600px;
+        }
+        100% {
+          background-position: 600px;
+        }
+      }
+    @media only screen and (max-width: 600px) {
+        /* Adjust font sizes for mobile view */
+        .h1-message {
+            font-size: 50px; /* Adjust the font size for mobile */
+            margin: 0 0 20px 10px; /* Adjust margin as needed */
+        }
     
-}
-.para-message{
-    margin: 0 0 0 20px;
-}
-.waiter{
-    color: rgb(72, 51, 110);
-}
+        .para-message {
+            font-size: 16px; /* Adjust the font size for mobile */
+            margin: 0 10px 10px 10px; /* Adjust margin as needed */
+        }
+
+        .hero-container{
+            height: 80vh;
+        }
+        
+    }
+
+    .intro-button{
+        font-size: 20px;
+        background-color: rgb(105,105,110);
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+    }

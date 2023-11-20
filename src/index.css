@@ -5,14 +5,24 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #DCEEF2;
-  background-image: url('./assets/backwoods.jpg');
+  background-color: rgb(36, 36, 38);
+  /* background-image: url('./assets/hero-background2.jpg'); */
+  background-size: 'contain';
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+
+@font-face {
+  font-family: "Tokyo-Outline";
+  src: local("Tokyo-Outline"),
+   url("../../fonts/Tokyo/Tokyo-Outline/Tokyo-Outline.woff") format("woff");
+  font-weight: bold;
+ }
+ 
 
 a {
   font-weight: 500;

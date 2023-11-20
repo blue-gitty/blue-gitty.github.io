@@ -8,6 +8,7 @@ const Greet =() =>
             <h3 className='welcome-message'>
             We are dedicated to transform the conventional methods of diagnosis and revolutionize the way the world looks at aneurysms. 
             </h3>
+            <Partners /> {/* Render the Partners component here */}
         </header>
 
 )

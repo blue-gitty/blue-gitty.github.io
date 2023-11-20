@@ -1,0 +1,90 @@
+/* Banner styles */
+    body {
+        font-family: 'Major Mono Display'; /* Use Brush Script MT font */
+        margin: 0;
+        padding: 0;
+        background-color: #333; /* Set the background color to match the Navbar */
+        color: white; /* Set text color to white */
+    }
+
+    .topnav {
+        font-family: "Major Mono Display";
+    }
+
+
+    #banner {
+        position: relative;
+        text-align: center;
+        padding: 50px;
+        background: rgba(51, 51, 51, 0.5);
+        color: white;
+        margin-top: 0; /* Remove margin top to eliminate the gap */
+        z-index: 1;
+    }
+    
+    #banner h1 {
+        font-size: 8em;
+        margin-bottom: 10px;
+    }
+    
+    #banner p {
+        font-size: 1.2em;
+    }
+    
+    #banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        z-index: 2;
+    }
+    
+    #banner .overlay-text button {
+        padding: 10px 20px;
+        font-size: 32px;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+        font-family: "Major Mono Display";
+        border-radius: 10px;
+    }
+    
+    #banner .overlay-text button:hover {
+        background-color: #45a049;
+    }
+    
+    /* Apply 50% opacity to the video element */
+    video {
+        width: 100%;
+        opacity: 0.3; /* Adjust the opacity here */
+    }
+    
+    /* Highlights styles */
+    .wrapper {
+        text-align: center;
+        padding: 20px; /* Add padding */
+    }
+    
+    .video-container {
+        margin-top: -20px;
+    }
+    
+/* Footer styles */
+footer {
+    background-color: #333; /* Match the Navbar color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer text styles */
+.footer-text {
+    font-family: 'Lora', serif; /* Use Lora font */
+    font-style: italic; /* Italicize the text */
+    color: white; /* Text color */
+}
+

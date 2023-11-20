@@ -1,0 +1,23 @@
+/* ContactUs.css */
+.contactus-container {
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header {
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  @media screen and (max-width: 600px) {
+    .contactus-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      height: auto; /* Adjust height to content */
+    }
+  
+    .header {
+      padding: 15px; /* Reduce padding for smaller screens */
+    }
+  }
