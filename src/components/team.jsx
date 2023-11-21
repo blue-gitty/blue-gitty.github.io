@@ -33,7 +33,7 @@ const TeamPage = () => {
             <a href='https://www.linkedin.com/in/preddy-garigapuram/'>
                 <BsLinkedin />
             </a> <ns/>
-            <a href='gpreddy@carasystems.co'><MdOutlineAlternateEmail/> </a> 
+            <a href='mailto:gpreddy@carasystems.co'><MdOutlineAlternateEmail/> </a> 
           </div>
         </div>
         <div className="team-member">
@@ -44,7 +44,7 @@ const TeamPage = () => {
             <a href='https://www.linkedin.com/in/srushti-katore-87ab721aa/'>
                 <BsLinkedin />
             </a> <ns/>
-            <a href='srushtirk@carasystems.co'><MdOutlineAlternateEmail/> </a>
+            <a href='mailto:srushtirk@carasystems.co'><MdOutlineAlternateEmail/> </a>
           </div>
         </div>
         <div className="team-member">
@@ -55,7 +55,7 @@ const TeamPage = () => {
             <a href='https://www.linkedin.com/in/hemanth-krishna-taduka-53bbb3168/'>
                 <BsLinkedin />
             </a> <ns/>
-            <a href='hemanthtaduka@carasystems.co'><MdOutlineAlternateEmail/> </a>
+            <a href='mailto:hemanthtaduka@carasystems.co'><MdOutlineAlternateEmail/> </a>
             
           </div>
         </div>
