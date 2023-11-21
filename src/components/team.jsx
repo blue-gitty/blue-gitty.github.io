@@ -8,6 +8,8 @@ import kbpic from '../assets/profilepics/Kurt_pic.png'
 import iskpic from '../assets/profilepics/Iskender_pic.png';
 import albertpic from '../assets/profilepics/Albert_pic.png';
 import srkpic from '../assets/profilepics/srkpic.jpg'
+import hkpic from '../assets/profilepics/hk_cara_pic.jpg';
+
 const TeamPage = () => {
     return (
       <div className="team-container">
@@ -46,7 +48,7 @@ const TeamPage = () => {
           </div>
         </div>
         <div className="team-member">
-          <img src="https://via.placeholder.com/150" alt="Team Member 4" />
+          <img src={hkpic} alt="Team Member 4" />
           <div className="member-details">
             <p className='name'>Hemanth Krishna Taduka</p>
             <p className='role'>Data Scientist</p>
